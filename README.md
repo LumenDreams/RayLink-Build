@@ -6,7 +6,7 @@
 
 **Fast, private connections on every device.**
 
-اتصال امن و سریع، روی همه‌ی دستگاه‌ها
+**English** · [فارسی](README.fa.md)
 
 <br>
 

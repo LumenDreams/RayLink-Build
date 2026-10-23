@@ -1,14 +1,5 @@
-# Packages and images as they are; text files with LF everywhere (the
-# checksum files must stay byte-exact for sha256sum -c).
-*.exe binary
-*.apk binary
-*.deb binary
-*.rpm binary
-*.AppImage binary
-*.gz binary
-*.dmg binary
+# Images as they are; text with LF everywhere.
 *.png binary
 *.md text eol=lf
-*.sh text eol=lf
-SHA256SUMS text eol=lf
+*.yml text eol=lf
 .gitattributes text eol=lf

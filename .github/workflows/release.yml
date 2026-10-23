@@ -1,8 +1,9 @@
 name: Release
 
-# Publishes the builds in this repository as a GitHub release, or updates
-# an existing one, by hand only (Run workflow): publishing a draft release
-# creates its tag, and a tag push must not replace that release's files.
+# Refreshes a release by hand (Run workflow): its notes from
+# .github/release-notes/<tag>.md, and SHA256SUMS.txt over every file on it.
+# Run it after attaching files on the release page, before publishing a
+# draft.
 on:
   workflow_dispatch:
     inputs:
@@ -18,27 +19,22 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
-      TAG: ${{ inputs.tag || github.ref_name }}
+      GH_REPO: ${{ github.repository }}
+      TAG: ${{ inputs.tag }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
 
-      - name: Collect the files
+      - name: Notes
+        run: gh release edit "$TAG" --notes-file ".github/release-notes/$TAG.md"
+
+      - name: SHA256SUMS.txt
         run: |
           mkdir out
-          for f in windows/*.exe android/*.apk linux/*.deb linux/*.rpm linux/*.AppImage linux/*.tar.gz macos/*.dmg; do
-            if [ -f "$f" ]; then cp "$f" out/; fi
-          done
           cd out
-          sha256sum * > SHA256SUMS.txt
-          ls -l
-
-      - name: Publish
-        run: |
-          notes=".github/release-notes/$TAG.md"
-          if gh release view "$TAG" > /dev/null 2>&1; then
-            gh release edit "$TAG" --notes-file "$notes"
-            gh release upload "$TAG" out/* --clobber
-          else
-            gh release create "$TAG" out/* --verify-tag --latest \
-              --title "RayLink ${TAG#v}" --notes-file "$notes"
-          fi
+          gh release download "$TAG"
+          rm -f SHA256SUMS.txt
+          sha256sum * > "$RUNNER_TEMP/SHA256SUMS.txt"
+          cat "$RUNNER_TEMP/SHA256SUMS.txt"
+          gh release upload "$TAG" "$RUNNER_TEMP/SHA256SUMS.txt" --clobber
