@@ -11,9 +11,9 @@
 <br>
 
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHpNMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHpNMTIuNiAxMi42SDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B)](#windows)
+[![macOS](https://img.shields.io/badge/macOS-12%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](#macos)
 [![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#android)
 [![Linux](https://img.shields.io/badge/Linux-x64-E95420?style=for-the-badge&logo=linux&logoColor=white)](#linux)
-[![macOS](https://img.shields.io/badge/macOS-coming%20soon-6E6E73?style=for-the-badge&logo=apple&logoColor=white)](#macos) <!--mac-badge-->
 
 <br>
 
@@ -37,26 +37,35 @@
 
 ## Downloads
 
-| Platform | Download | Size | Works on |
-| :-- | :-- | --: | :-- |
-| **Windows** | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | 23.8 MB | Windows 10 or 11 (64-bit) |
-| **Android** | [APK](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-android.apk) | 52.3 MB | Android 7.0 or later |
-| **Linux** | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_amd64.deb) | 20.4 MB | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ |
-| | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.x86_64.rpm) | 29.6 MB | Fedora, RHEL 9 and compatible |
-| | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-x86_64.AppImage) | 26.9 MB | Most Linux distributions |
-| **macOS** | Coming soon | | macOS 12 or later, Apple silicon and Intel <!--mac-row--> |
+**RayLink 1.0.1** (build 47) · every file with its checksum is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest)
 
-Every file, with its checksum, is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest).
+| Platform | Your device | Download | Size |
+| :-- | :-- | :-- | --: |
+| **Windows** 10 or 11 | Most PCs (Intel or AMD) | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | 23.8 MB |
+| | ARM PCs (Snapdragon) | [Installer for ARM](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-arm64-setup.exe) | 22.0 MB |
+| **macOS** 12 or later | Apple silicon and Intel Macs | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-macos.dmg) | 58.7 MB |
+| **Android** 7.0 or later | Phones and tablets | [APK](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-android.apk) | 52.3 MB |
+| **Linux** | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_amd64.deb) | 20.4 MB |
+| | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.x86_64.rpm) | 29.6 MB |
+| | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-x86_64.AppImage) | 26.9 MB |
 
 ## Install
 
 ### Windows
 
-1. Open the installer.
+1. Open the installer: **Installer for ARM** on ARM PCs (such as Snapdragon laptops), **Installer** on all others.
 2. If Windows SmartScreen appears, select **More info**, then **Run anyway**.
 3. Approve the administrator prompt. RayLink installs a small service that runs the connection.
 
 To update, install the new version over the old one; your servers and settings are kept. To remove RayLink, uninstall it from **Settings → Apps**.
+
+### macOS
+
+1. Open the DMG and drag **RayLink** into **Applications**.
+2. Open RayLink. The first time, it asks for your password to install the service that runs the connection.
+3. To scan a QR code on your screen, allow RayLink under **System Settings → Privacy & Security → Screen Recording** when asked.
+
+The first time, macOS may stop RayLink from opening. Open **System Settings → Privacy & Security** and select **Open Anyway**.
 
 ### Android
 
@@ -92,12 +101,6 @@ The first time it starts, the AppImage asks for your password to install the ser
 On GNOME, RayLink's tray icon needs the *AppIndicator and KStatusNotifierItem Support* extension, which Ubuntu includes.
 
 To remove RayLink, run `sudo apt remove raylink` or `sudo dnf remove raylink`.
-
-### macOS
-
-<!--mac-install-->
-Coming soon.
-<!--/mac-install-->
 
 <details>
 <summary><b>Verify a download</b></summary>
