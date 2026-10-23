@@ -1,0 +1,46 @@
+name: Release
+
+# Publishes the builds in this repository as a GitHub release: when a
+# version tag (v1.0.1) is pushed, or by hand (Run workflow) to update an
+# existing release, such as adding the macOS build.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag, for example v1.0.1"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect the files
+        run: |
+          mkdir out
+          for f in windows/*.exe android/*.apk linux/*.deb linux/*.rpm linux/*.AppImage linux/*.tar.gz macos/*.dmg; do
+            if [ -f "$f" ]; then cp "$f" out/; fi
+          done
+          cd out
+          sha256sum * > SHA256SUMS.txt
+          ls -l
+
+      - name: Publish
+        run: |
+          notes=".github/release-notes/$TAG.md"
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release edit "$TAG" --notes-file "$notes"
+            gh release upload "$TAG" out/* --clobber
+          else
+            gh release create "$TAG" out/* --verify-tag --latest \
+              --title "RayLink ${TAG#v}" --notes-file "$notes"
+          fi
