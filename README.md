@@ -13,7 +13,7 @@
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHpNMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHpNMTIuNiAxMi42SDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B)](#windows)
 [![macOS](https://img.shields.io/badge/macOS-12%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](#macos)
 [![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#android)
-[![Linux](https://img.shields.io/badge/Linux-x64-E95420?style=for-the-badge&logo=linux&logoColor=white)](#linux)
+[![Linux](https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-E95420?style=for-the-badge&logo=linux&logoColor=white)](#linux)
 
 <br>
 
@@ -48,6 +48,9 @@
 | **Linux** | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_amd64.deb) | 20.4 MB |
 | | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.x86_64.rpm) | 29.6 MB |
 | | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-x86_64.AppImage) | 26.9 MB |
+| **Linux on ARM** | Ubuntu 22.04+, Debian 12+, Raspberry Pi OS (64-bit) | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_arm64.deb) | 18.3 MB |
+| | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.aarch64.rpm) | 28.1 MB |
+| | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-aarch64.AppImage) | 25.4 MB |
 
 ## Install
 
@@ -97,6 +100,8 @@ chmod +x RayLink-1.0.1-47-x86_64.AppImage
 ```
 
 The first time it starts, the AppImage asks for your password to install the service that runs the connection.
+
+On an ARM computer, such as a Raspberry Pi, use the ARM files with the same commands: `raylink_1.0.1-47_arm64.deb`, `raylink-1.0.1-47.aarch64.rpm` or `RayLink-1.0.1-47-aarch64.AppImage`.
 
 On GNOME, RayLink's tray icon needs the *AppIndicator and KStatusNotifierItem Support* extension, which Ubuntu includes.
 

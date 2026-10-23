@@ -13,7 +13,7 @@
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHpNMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHpNMTIuNiAxMi42SDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B)](#ویندوز)
 [![macOS](https://img.shields.io/badge/macOS-12%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](#مک)
 [![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#اندروید)
-[![Linux](https://img.shields.io/badge/Linux-x64-E95420?style=for-the-badge&logo=linux&logoColor=white)](#لینوکس)
+[![Linux](https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-E95420?style=for-the-badge&logo=linux&logoColor=white)](#لینوکس)
 
 <br>
 
@@ -50,6 +50,9 @@
 | **لینوکس** | Ubuntu 22.04، Debian 12، Linux Mint 21 و نسخه‌های جدیدتر | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_amd64.deb) | ۲۰٫۴ مگابایت |
 | | Fedora، RHEL 9 و توزیع‌های سازگار | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.x86_64.rpm) | ۲۹٫۶ مگابایت |
 | | سایر توزیع‌ها | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-x86_64.AppImage) | ۲۶٫۹ مگابایت |
+| **لینوکس روی ARM** | Ubuntu 22.04، Debian 12 و Raspberry Pi OS (نسخه‌ی ۶۴ بیتی) | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_arm64.deb) | ۱۸٫۳ مگابایت |
+| | Fedora، RHEL 9 و توزیع‌های سازگار | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.aarch64.rpm) | ۲۸٫۱ مگابایت |
+| | سایر توزیع‌ها | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-aarch64.AppImage) | ۲۵٫۴ مگابایت |
 
 ## نصب
 
@@ -110,7 +113,13 @@ chmod +x RayLink-1.0.1-47-x86_64.AppImage
 
 </div>
 
-AppImage اولین باری که اجرا می‌شود، برای نصب سرویس اتصال، رمز عبور شما را می‌پرسد.
+فایل AppImage اولین باری که اجرا می‌شود، برای نصب سرویس اتصال، رمز عبور شما را می‌پرسد.
+
+روی کامپیوترهای ARM، مثل رزبری‌پای، فایل‌های ARM را با همین دستورها نصب کنید:
+
+- `raylink_1.0.1-47_arm64.deb`
+- `raylink-1.0.1-47.aarch64.rpm`
+- `RayLink-1.0.1-47-aarch64.AppImage`
 
 در GNOME، آیکون RayLink در نوار وضعیت به افزونه‌ی *AppIndicator and KStatusNotifierItem Support* نیاز دارد که Ubuntu آن را از قبل دارد.
 
