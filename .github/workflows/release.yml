@@ -1,11 +1,9 @@
 name: Release
 
-# Publishes the builds in this repository as a GitHub release: when a
-# version tag (v1.0.1) is pushed, or by hand (Run workflow) to update an
-# existing release, such as adding the macOS build.
+# Publishes the builds in this repository as a GitHub release, or updates
+# an existing one, by hand only (Run workflow): publishing a draft release
+# creates its tag, and a tag push must not replace that release's files.
 on:
-  push:
-    tags: ["v*"]
   workflow_dispatch:
     inputs:
       tag:

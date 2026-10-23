@@ -22,7 +22,7 @@
 <br>
 <br>
 
-[![Download](https://img.shields.io/github/v/release/easyfast2008/RayLink-Build?style=for-the-badge&label=Download&color=E9846F)](https://github.com/easyfast2008/RayLink-Build/releases/latest)
+[![Download](https://img.shields.io/github/v/release/LumenDreams/RayLink-Build?style=for-the-badge&label=Download&color=E9846F)](https://github.com/LumenDreams/RayLink-Build/releases/latest)
 
 </div>
 
@@ -39,14 +39,14 @@
 
 | Platform | Download | Size | Works on |
 | :-- | :-- | --: | :-- |
-| **Windows** | [Installer](https://github.com/easyfast2008/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | 23.8 MB | Windows 10 or 11 (64-bit) |
-| **Android** | [APK](https://github.com/easyfast2008/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-android.apk) | 52.3 MB | Android 7.0 or later |
-| **Linux** | [.deb](https://github.com/easyfast2008/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_amd64.deb) | 20.4 MB | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ |
-| | [.rpm](https://github.com/easyfast2008/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.x86_64.rpm) | 29.6 MB | Fedora, RHEL 9 and compatible |
-| | [AppImage](https://github.com/easyfast2008/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-x86_64.AppImage) | 26.9 MB | Most Linux distributions |
+| **Windows** | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | 23.8 MB | Windows 10 or 11 (64-bit) |
+| **Android** | [APK](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-android.apk) | 52.3 MB | Android 7.0 or later |
+| **Linux** | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_amd64.deb) | 20.4 MB | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ |
+| | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.x86_64.rpm) | 29.6 MB | Fedora, RHEL 9 and compatible |
+| | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-x86_64.AppImage) | 26.9 MB | Most Linux distributions |
 | **macOS** | Coming soon | | macOS 12 or later, Apple silicon and Intel <!--mac-row--> |
 
-Every file, with its checksum, is on the [release page](https://github.com/easyfast2008/RayLink-Build/releases/latest).
+Every file, with its checksum, is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest).
 
 ## Install
 
@@ -104,7 +104,7 @@ Coming soon.
 
 <br>
 
-Compare the SHA-256 checksum of your file with `SHA256SUMS.txt` on the [release page](https://github.com/easyfast2008/RayLink-Build/releases/latest).
+Compare the SHA-256 checksum of your file with `SHA256SUMS.txt` on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest).
 
 ```bash
 sha256sum raylink_1.0.1-47_amd64.deb                        # Linux
