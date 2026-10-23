@@ -10,9 +10,9 @@
 
 <br>
 
-[![Windows](https://img.shields.io/badge/Windows-1.0.0%20%C2%B7%20build%2045-0078D4?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHpNMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHpNMTIuNiAxMi42SDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B)](#windows)
-[![Android](https://img.shields.io/badge/Android-1.0.0%20%C2%B7%20build%2045-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#android)
-[![Linux](https://img.shields.io/badge/Linux-1.0.0%20%C2%B7%20build%2044-E95420?style=for-the-badge&logo=linux&logoColor=white)](#linux)
+[![Windows](https://img.shields.io/badge/Windows-build%2045-0078D4?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHpNMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHpNMTIuNiAxMi42SDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B)](#windows)
+[![Android](https://img.shields.io/badge/Android-build%2045-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#android)
+[![Linux](https://img.shields.io/badge/Linux-build%2044-E95420?style=for-the-badge&logo=linux&logoColor=white)](#linux)
 [![macOS](https://img.shields.io/badge/macOS-coming%20soon-6E6E73?style=for-the-badge&logo=apple&logoColor=white)](#macos) <!--mac-badge-->
 
 <br>
@@ -26,7 +26,7 @@
 - **One tap to connect.** Paste or scan VLESS (REALITY too), VMess, Trojan, Shadowsocks and SOCKS links, or add a subscription.
 - **Tunnel or proxy.** Send the whole device through a system-wide tunnel, or just use the system proxy. A kill switch blocks traffic if the tunnel drops (Always-on VPN on Android).
 - **Smart routing.** Automatic, Global or your own rules.
-- **Speaks your language.** 11 languages, right to left included: فارسی, العربية.
+- **Speaks your language.** 11 languages, among them Persian (فارسی) and Arabic (العربية), right to left.
 - **Help built in.** Chat with support from inside the app.
 
 ## Downloads

@@ -42,7 +42,7 @@ url="https://github.com/easyfast2008/RayLink-Build/raw/main/macos/$name"
 awk -v version="$version" -v number="$number" -v size="$size" -v url="$url" \
   -v signed="$signed" -v gatekeeper="$gatekeeper" -v date="$(date +%F)" '
   /<!--mac-badge-->/ {
-    print "[![macOS](https://img.shields.io/badge/macOS-" version "%20%C2%B7%20build%20" number "-000000?style=for-the-badge&logo=apple&logoColor=white)](#macos) <!--mac-badge-->"
+    print "[![macOS](https://img.shields.io/badge/macOS-build%20" number "-000000?style=for-the-badge&logo=apple&logoColor=white)](#macos) <!--mac-badge-->"
     next
   }
   /<!--mac-row-->/ {
