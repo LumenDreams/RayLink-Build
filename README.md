@@ -37,20 +37,20 @@
 
 ## Downloads
 
-**RayLink 1.0.1** (build 47) · every file with its checksum is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest)
+**RayLink 1.0.2** (build 48) · every file with its checksum is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest)
 
 | Platform | Your device | Download | Size |
 | :-- | :-- | :-- | --: |
-| **Windows** 10 or 11 | Most PCs (Intel or AMD) | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | 23.7 MB |
-| | ARM PCs (Snapdragon) | [Installer for ARM](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-arm64-setup.exe) | 22.0 MB |
-| **macOS** 12 or later | Apple silicon and Intel Macs | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-macos.dmg) | 58.7 MB |
-| **Android** 7.0 or later | Phones and tablets | [APK](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-android.apk) | 52.3 MB |
-| **Linux** | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_amd64.deb) | 20.4 MB |
-| | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.x86_64.rpm) | 29.7 MB |
-| | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-x86_64.AppImage) | 27.0 MB |
-| **Linux on ARM** | Ubuntu 22.04+, Debian 12+, Raspberry Pi OS (64-bit) | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink_1.0.1-47_arm64.deb) | 18.3 MB |
-| | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/raylink-1.0.1-47.aarch64.rpm) | 28.1 MB |
-| | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-aarch64.AppImage) | 25.4 MB |
+| **Windows** 10 or 11 | Most PCs (Intel or AMD) | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-x64-setup.exe) | 23.8 MB |
+| | ARM PCs (Snapdragon) | [Installer for ARM](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-arm64-setup.exe) | 22.0 MB |
+| **macOS** 12 or later | Apple silicon and Intel Macs | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-macos.dmg) | 58.7 MB |
+| **Android** 7.0 or later | Phones and tablets | [APK](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-android.apk) | 52.3 MB |
+| **Linux** | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.deb) | 20.4 MB |
+| | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.rpm) | 29.7 MB |
+| | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.AppImage) | 27.0 MB |
+| **Linux on ARM** | Ubuntu 22.04+, Debian 12+, Raspberry Pi OS (64-bit) | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.deb) | 18.3 MB |
+| | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.rpm) | 28.1 MB |
+| | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.AppImage) | 25.4 MB |
 
 ## Install
 
@@ -83,25 +83,25 @@ New versions install over the old one and keep your servers.
 **Ubuntu, Debian, Linux Mint**
 
 ```bash
-sudo apt install ./raylink_1.0.1-47_amd64.deb
+sudo apt install ./RayLink-linux-x64.deb
 ```
 
 **Fedora, RHEL**
 
 ```bash
-sudo dnf install ./raylink-1.0.1-47.x86_64.rpm
+sudo dnf install ./RayLink-linux-x64.rpm
 ```
 
 **Other distributions**
 
 ```bash
-chmod +x RayLink-1.0.1-47-x86_64.AppImage
-./RayLink-1.0.1-47-x86_64.AppImage
+chmod +x RayLink-linux-x64.AppImage
+./RayLink-linux-x64.AppImage
 ```
 
 The first time it starts, the AppImage asks for your password to install the service that runs the connection.
 
-On an ARM computer, such as a Raspberry Pi, use the ARM files with the same commands: `raylink_1.0.1-47_arm64.deb`, `raylink-1.0.1-47.aarch64.rpm` or `RayLink-1.0.1-47-aarch64.AppImage`.
+On an ARM computer, such as a Raspberry Pi, use the ARM files with the same commands: `RayLink-linux-arm64.deb`, `RayLink-linux-arm64.rpm` or `RayLink-linux-arm64.AppImage`.
 
 On GNOME, RayLink's tray icon needs the *AppIndicator and KStatusNotifierItem Support* extension, which Ubuntu includes.
 
@@ -115,12 +115,12 @@ To remove RayLink, run `sudo apt remove raylink` or `sudo dnf remove raylink`.
 Compare the SHA-256 checksum of your file with `SHA256SUMS.txt` on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest).
 
 ```bash
-sha256sum raylink_1.0.1-47_amd64.deb                        # Linux
-shasum -a 256 RayLink-1.0.1-47-macos.dmg                    # macOS
+sha256sum RayLink-linux-x64.deb              # Linux
+shasum -a 256 RayLink-macos.dmg              # macOS
 ```
 
 ```powershell
-Get-FileHash .\RayLink-1.0.1-47-windows-x64-setup.exe       # Windows
+Get-FileHash .\RayLink-windows-x64-setup.exe       # Windows
 ```
 
 Every Android release is signed with the same certificate:
