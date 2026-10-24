@@ -41,7 +41,7 @@
 
 | Platform | Your device | Download | Size |
 | :-- | :-- | :-- | --: |
-| **Windows** 10 or 11 | Most PCs (Intel or AMD) | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | 23.8 MB |
+| **Windows** 10 or 11 | Most PCs (Intel or AMD) | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | 23.7 MB |
 | | ARM PCs (Snapdragon) | [Installer for ARM](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-arm64-setup.exe) | 22.0 MB |
 | **macOS** 12 or later | Apple silicon and Intel Macs | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-macos.dmg) | 58.7 MB |
 | **Android** 7.0 or later | Phones and tablets | [APK](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-android.apk) | 52.3 MB |

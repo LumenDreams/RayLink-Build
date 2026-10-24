@@ -43,7 +43,7 @@
 
 | سیستم‌عامل | دستگاه شما | دانلود | حجم |
 | :-- | :-- | :-- | :-- |
-| **ویندوز** ۱۰ یا ۱۱ | بیشتر کامپیوترها (Intel یا AMD) | [فایل نصب](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | ۲۳٫۸ مگابایت |
+| **ویندوز** ۱۰ یا ۱۱ | بیشتر کامپیوترها (Intel یا AMD) | [فایل نصب](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-x64-setup.exe) | ۲۳٫۷ مگابایت |
 | | کامپیوترهای ARM (اسنپدراگون) | [فایل نصب ARM](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-windows-arm64-setup.exe) | ۲۲٫۰ مگابایت |
 | **مک** ۱۲ به بعد | مک‌های Apple silicon و Intel | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-macos.dmg) | ۵۸٫۷ مگابایت |
 | **اندروید** ۷٫۰ به بعد | گوشی و تبلت | [APK](https://github.com/LumenDreams/RayLink-Build/releases/download/v1.0.1/RayLink-1.0.1-47-android.apk) | ۵۲٫۳ مگابایت |
