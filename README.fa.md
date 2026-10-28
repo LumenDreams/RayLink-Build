@@ -39,20 +39,20 @@
 
 ## دانلود
 
-**نسخه‌ی ۱.۰.۲** (بیلد ۴۸) · همه‌ی فایل‌ها همراه با چک‌سام در [صفحه‌ی انتشار](https://github.com/LumenDreams/RayLink-Build/releases/latest) هستند.
+**نسخه‌ی ۱.۰.۴** (بیلد ۵۰) · همه‌ی فایل‌ها همراه با چک‌سام در [صفحه‌ی انتشار](https://github.com/LumenDreams/RayLink-Build/releases/latest) هستند.
 
 | سیستم‌عامل | دستگاه شما | دانلود | حجم |
 | :-- | :-- | :-- | :-- |
-| **ویندوز** ۱۰ یا ۱۱ | بیشتر کامپیوترها (Intel یا AMD) | [فایل نصب](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-x64-setup.exe) | ۲۳٫۸ مگابایت |
-| | کامپیوترهای ARM (اسنپدراگون) | [فایل نصب ARM](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-arm64-setup.exe) | ۲۲٫۰ مگابایت |
-| **مک** ۱۲ به بعد | مک‌های Apple silicon و Intel | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-macos.dmg) | ۵۸٫۷ مگابایت |
-| **اندروید** ۷٫۰ به بعد | گوشی و تبلت | [APK](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-android.apk) | ۵۲٫۳ مگابایت |
-| **لینوکس** | Ubuntu 22.04، Debian 12، Linux Mint 21 و نسخه‌های جدیدتر | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.deb) | ۲۰٫۴ مگابایت |
-| | Fedora، RHEL 9 و توزیع‌های سازگار | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.rpm) | ۲۹٫۷ مگابایت |
-| | سایر توزیع‌ها | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.AppImage) | ۲۷٫۰ مگابایت |
-| **لینوکس روی ARM** | Ubuntu 22.04، Debian 12 و Raspberry Pi OS (نسخه‌ی ۶۴ بیتی) | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.deb) | ۱۸٫۳ مگابایت |
-| | Fedora، RHEL 9 و توزیع‌های سازگار | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.rpm) | ۲۸٫۱ مگابایت |
-| | سایر توزیع‌ها | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.AppImage) | ۲۵٫۴ مگابایت |
+| **ویندوز** ۱۰ یا ۱۱ | بیشتر کامپیوترها (Intel یا AMD) | [فایل نصب](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-x64-setup.exe) | ۲۴٫۹ مگابایت |
+| | کامپیوترهای ARM (اسنپدراگون) | [فایل نصب ARM](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-arm64-setup.exe) | ۲۳٫۱ مگابایت |
+| **مک** ۱۲ به بعد | مک‌های Apple silicon و Intel | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-macos.dmg) | ۶۱٫۶ مگابایت |
+| **اندروید** ۷٫۰ به بعد | گوشی و تبلت | [APK](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-android.apk) | ۵۴٫۹ مگابایت |
+| **لینوکس** | Ubuntu 22.04، Debian 12، Linux Mint 21 و نسخه‌های جدیدتر | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.deb) | ۲۱٫۴ مگابایت |
+| | Fedora، RHEL 9 و توزیع‌های سازگار | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.rpm) | ۳۱٫۱ مگابایت |
+| | سایر توزیع‌ها | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.AppImage) | ۲۸٫۳ مگابایت |
+| **لینوکس روی ARM** | Ubuntu 22.04، Debian 12 و Raspberry Pi OS (نسخه‌ی ۶۴ بیتی) | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.deb) | ۱۹٫۲ مگابایت |
+| | Fedora، RHEL 9 و توزیع‌های سازگار | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.rpm) | ۲۹٫۵ مگابایت |
+| | سایر توزیع‌ها | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-arm64.AppImage) | ۲۶٫۶ مگابایت |
 
 ## نصب
 
