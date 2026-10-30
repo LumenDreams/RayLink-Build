@@ -37,14 +37,14 @@
 
 ## Downloads
 
-**RayLink 1.0.4** (build 50) · every file with its checksum is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest)
+**RayLink 1.0.5** (build 51) · every file with its checksum is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest)
 
 | Platform | Your device | Download | Size |
 | :-- | :-- | :-- | --: |
 | **Windows** 10 or 11 | Most PCs (Intel or AMD) | [Installer](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-x64-setup.exe) | 24.9 MB |
 | | ARM PCs (Snapdragon) | [Installer for ARM](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-windows-arm64-setup.exe) | 23.1 MB |
 | **macOS** 12 or later | Apple silicon and Intel Macs | [DMG](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-macos.dmg) | 61.6 MB |
-| **Android** 7.0 or later | Phones and tablets | [APK](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-android.apk) | 54.9 MB |
+| **Android** 7.0 or later | Phones and tablets | [APK](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-android.apk) | 54.8 MB |
 | **Linux** | Ubuntu 22.04+, Debian 12+, Linux Mint 21+ | [.deb](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.deb) | 21.4 MB |
 | | Fedora, RHEL 9 and compatible | [.rpm](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.rpm) | 31.1 MB |
 | | Other distributions | [AppImage](https://github.com/LumenDreams/RayLink-Build/releases/latest/download/RayLink-linux-x64.AppImage) | 28.3 MB |
