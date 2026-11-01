@@ -37,7 +37,7 @@
 
 ## Downloads
 
-**RayLink 1.0.8** (build 54) · every file with its checksum is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest)
+**RayLink 1.0.9** (build 55) · every file with its checksum is on the [release page](https://github.com/LumenDreams/RayLink-Build/releases/latest)
 
 | Platform | Your device | Download | Size |
 | :-- | :-- | :-- | --: |
